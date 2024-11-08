@@ -36,19 +36,10 @@ const InnerDiv = styled.div`
 
 const experienceArr = [
   {
-    name: "Tilka",
+    name: "SAIL",
     logo: "/Headshot.jpg",
-    role: "Backend Engineer",
-    startDate: "January 2023",
-    endDate: "Present",
-    description:
-      "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sed quaerat quam iusto debitis. Expedita tenetur, odit, repudiandae alias porro sequi maiores blanditiis ea distinctio esse minus. Excepturi ipsam vero mollitia.",
-  },
-  {
-    name: "Tilka",
-    logo: "/Headshot.jpg",
-    role: "Backend Engineer",
-    startDate: "January 2023",
+    role: "Fullstack Engineer",
+    startDate: "July 2024",
     endDate: "Present",
     description:
       "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sed quaerat quam iusto debitis. Expedita tenetur, odit, repudiandae alias porro sequi maiores blanditiis ea distinctio esse minus. Excepturi ipsam vero mollitia.",
@@ -61,13 +52,13 @@ export default function About() {
       <Container>
         <H4>About me</H4>
         <InnerDiv>
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sed quaerat
-          quam iusto debitis. Expedita tenetur, odit, repudiandae alias porro,
-          sequi maiores blanditiis ea distinctio esse minus. Excepturi ipsam
-          vero mollitia.Lorem, ipsum dolor sit amet consectetur adipisicing
-          elit. Sed quaerat quam iusto debitis. Expedita tenetur, odit,
-          repudiandae alias porro, sequi maiores blanditiis ea distinctio esse
-          minus. Excepturi ipsam vero mollitia.
+          I am an aspiring Software Developer with a foundational knowledge of
+          programming and hands-on experience in AI tools. Currently advancing
+          technical skills through a structured software development program. I
+          am analytical thinking, attention to detail, and a commitment to
+          continuous learning, with a background in roles requiring management
+          and effective communication.eager to apply newly acquired technical
+          abilities in an entry-level software development role.
         </InnerDiv>
       </Container>
       <Container>

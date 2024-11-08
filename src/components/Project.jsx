@@ -2,7 +2,8 @@ import ProjectCard from "./ProjectCard";
 import styled from "styled-components";
 import { FaGithub } from "react-icons/fa";
 import { PiLinkSimpleBreakBold } from "react-icons/pi";
-
+import image from "../assets/images/Funiro.png"
+import image2 from "../assets/images/Nexcent.png"
 const Container = styled.div`
   text-align: center;
   margin-bottom: 100px;
@@ -73,9 +74,9 @@ const Img = styled.img`
 
 const Arr = [
   {
-    img: "project1.svg",
+    img :"image",
     id: 1,
-    title: "Kuda clone",
+    title: "Furniro Landing page",
     stack: "javaScript, css, html, react",
     gitHubLink: "",
     liveCodePrev: "",
@@ -83,7 +84,7 @@ const Arr = [
       "        Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur corrupti dolores magnam cupiditate tempora. Pariatur quae vel nesciunt maxime! Natus hic impedit velit quos facilis in, itaque iure. Nihil, repellendus.",
   },
   {
-    img: "project2.svg",
+    img:{image2},
     id: 2,
     title: "Kuda clone",
     stack: "javaScript, css, html, react",
