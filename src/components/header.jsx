@@ -10,15 +10,17 @@ const Nav = styled.nav`
   display: flex;
   width: 100%;
   height: 60px;
-  justify-content: center;
   gap: 100px;
   font-size: 20px;
   align-items: center;
   /* border: 1px solid black; */
-  margin-bottom: 50px;
+  margin-bottom: 30px;
+  margin-left: 95px;
 
   @media (max-width: 983px) {
     margin-bottom: 30px;
+    margin-left: 0px;
+    justify-content: center;
   }
 `;
 

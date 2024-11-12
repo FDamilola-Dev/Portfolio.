@@ -13,6 +13,17 @@ const ProfLogo = styled.h1`
   }
 `;
 
+const Span = styled.span`
+  display: none;
+  @media (max-width: 983px) {
+    display: block;
+  }
+`;
+
 export default function Logo() {
-  return <ProfLogo> DAMILOLA OYESANMI </ProfLogo>;
+  return (
+    <ProfLogo>
+      FATIMAH <Span> DAMILOLA </Span> OYESANMI{" "}
+    </ProfLogo>
+  );
 }

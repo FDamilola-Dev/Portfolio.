@@ -2,7 +2,8 @@ import styled from "styled-components";
 import PropTypes from "prop-types";
 
 const Li = styled.li`
-  width: 373px;
+  width: 400px;
+  /* width: 373px; */
   min-height: 467px;
   /* box-shadow: var(--shadow-md); */
   box-shadow: 0 0 4px black;

@@ -132,15 +132,24 @@ body {
   transition: color 0.3s, background-color 0.3s;
   min-height: 100vh;
   line-height: 1.5;
-  font-size: 1.6rem;
+  font-size: 0.876rem;
   /* margin: 40px 0; */
 }
 
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
 #root{
-    max-width: 70%;
+    max-width: 80%;
     /* border: 1px solid green; */
     margin: 0 auto;
   /* padding-top: 30px; */
+
+  @media (max-width: 983px) {
+    max-width: 100%;
+  }
 
 }
 

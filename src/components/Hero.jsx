@@ -74,11 +74,17 @@ export default function Hero() {
   return (
     <Div>
       <P>
-      Hi 👋, I&apos;m Fatimah Damilola Oyesanmi, a software developer based in Lagos, Nigeria. Passionate about crafting well-designed, efficient code,as I have experience building frontend applications using JavaScript and React. Tackling complex problems and finding creative solutions that push the limits of what&apos;s possible on the web excites me.
-
-       Currently, I&apos;m deepening my technical skills through a structured software development program, while also bringing my background in management and communication to help me work effectively within teams. With enthusiasm to step into an entry-level role, I look forward to learning, applying my skills, and contributing to impactful projects.
-
-
+        Hi 👋, I&apos;m Fatimah Damilola Oyesanmi, a software developer based in
+        Lagos, Nigeria. Passionate about crafting well-designed, efficient
+        code,as I have experience building frontend applications using
+        JavaScript and React. Tackling complex problems and finding creative
+        solutions that push the limits of what&apos;s possible on the web
+        excites me. Currently, I&apos;m deepening my technical skills through a
+        structured software development program, while also bringing my
+        background in management and communication to help me work effectively
+        within teams. With enthusiasm to step into an entry-level role, I look
+        forward to learning, applying my skills, and contributing to impactful
+        projects.
       </P>
       <ImageContainer>
         <Image src="Headshot.jpg" alt="fatimah image" width={"300px"} />

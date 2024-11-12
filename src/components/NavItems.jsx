@@ -30,9 +30,9 @@ export default function NavItems() {
       <P>
         <NavLink to={"/about"}>about</NavLink>
       </P>
-      <P>
+      {/* <P>
         <NavLink to={"/tech"}>tech stack</NavLink>
-      </P>
+      </P> */}
       <P>
         <NavLink to={"/project"}>project</NavLink>
       </P>

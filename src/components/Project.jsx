@@ -2,8 +2,7 @@ import ProjectCard from "./ProjectCard";
 import styled from "styled-components";
 import { FaGithub } from "react-icons/fa";
 import { PiLinkSimpleBreakBold } from "react-icons/pi";
-import image from "../assets/images/Funiro.png"
-import image2 from "../assets/images/Nexcent.png"
+
 const Container = styled.div`
   text-align: center;
   margin-bottom: 100px;
@@ -17,7 +16,7 @@ const List = styled.ul`
   gap: 40px;
   flex-wrap: wrap;
   flex: 1;
-  font-size: 18px;
+  /* font-size: 18px; */
 `;
 
 const Span = styled.span`
@@ -27,7 +26,7 @@ const Span = styled.span`
   background-color: var(--color-grey-900);
   color: var(--color-grey-100);
   margin-bottom: 10px;
-
+  font-size: 1.5rem;
   &:hover {
     background-color: var(--color-grey-600);
   }
@@ -37,13 +36,19 @@ const H3 = styled.h3`
   text-transform: capitalize;
   font-weight: 900;
   letter-spacing: 1.5;
-  margin-bottom: 15px;
+  font-size: 1.5rem;
 `;
 
 const Div = styled.div`
   padding: 20px;
   display: grid;
   gap: 20px;
+  text-align: justify;
+
+  @media (max-width: 983px) {
+    gap: 10px;
+    padding: 5 10px;
+  }
 `;
 
 const DesCont = styled.div`
@@ -54,6 +59,7 @@ const DesCont = styled.div`
 
 const Title = styled.p`
   font-weight: 700;
+  text-align: center;
 `;
 
 const LinkContainer = styled.p`
@@ -74,9 +80,9 @@ const Img = styled.img`
 
 const Arr = [
   {
-    img :"image",
+    img: "project1.svg",
     id: 1,
-    title: "Furniro Landing page",
+    title: "Kuda clone",
     stack: "javaScript, css, html, react",
     gitHubLink: "",
     liveCodePrev: "",
@@ -84,7 +90,7 @@ const Arr = [
       "        Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur corrupti dolores magnam cupiditate tempora. Pariatur quae vel nesciunt maxime! Natus hic impedit velit quos facilis in, itaque iure. Nihil, repellendus.",
   },
   {
-    img:{image2},
+    img: "project2.svg",
     id: 2,
     title: "Kuda clone",
     stack: "javaScript, css, html, react",

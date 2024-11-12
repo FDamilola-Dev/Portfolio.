@@ -45,13 +45,15 @@ const Name = styled.span`
 
 const StackDiv = styled.div`
   display: flex;
-  gap: 10px;
-  justify-content: flex-start;
+  gap: 8px;
+  justify-content: center;
   flex-wrap: wrap;
   padding: 20px;
+  font-size: 1.2rem;
 
   @media (max-width: 983px) {
     gap: 4px;
+    justify-content: flex-start;
   }
 `;
 
@@ -61,10 +63,32 @@ const stackList = [
   "HTML",
   "React",
   "Git",
-  "Github",
-  "MongoDb",
-  "Styled Components",
+  "GitHub",
   "Tailwind",
+  // "Sequelize",
+  // "Mongoose",
+  // "Next",
+  // "SpringBoot",
+  // "Nest",
+  // "SQL",
+  // "NoSQL",
+  // "Java",
+  // "Docker",
+  // "Postges",
+  // "Nx Monorepo",
+  // "Mocha",
+  // "TypeScript",
+  // "Redux",
+  // "Pug",
+  // "Handlebars",
+  // "Ejs",
+  // "MongoDb",
+  // "Prisma",
+  // "BullMq",
+  // "Styled Components",
+  // "Redis",
+  // "Aws",
+  // "typeOrm",
 ];
 
 export default function TechStack() {
